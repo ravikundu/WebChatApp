@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Booth</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-database.js"></script>
+</head>
+<body>
+
+<h3 id="hValue"></h3>
+<div>
+  <h4>Exhibition 1</h4>  
+  <button type="button" id="1" onclick="boothApp.chat(this)">Start Chat</button>
+</div>
+<!--
+<div>
+    <h4>Exhibition 2</h4>  
+    <button type="button" id="2" onclick="boothApp.chat(this)">Start Chat</button>
+</div>
+<div>
+    <h4>Exhibition 3</h4>  
+    <button type="button" id="3" onclick="boothApp.chat(this)">Start Chat</button>
+</div>
+-->
+<button type="button" onclick="boothApp.mychats()">My Chats</button>
+<script src="booth.js"></script>
+</body>
+</html>
