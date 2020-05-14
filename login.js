@@ -57,9 +57,9 @@ function login(){
 
 loginApp.login = login;
 
-document.addEventListener("keyup",function(event){
-  if(event.keyCode == 13){
-    console.log("Login initiated...");
-    login();
-  }
-});
+// document.addEventListener("keyup",function(event){
+//   if(event.keyCode == 13){
+//     console.log("Login initiated...");
+//     login();
+//   }
+// });
