@@ -30,7 +30,7 @@ function login(){
                 //location.replace("booth.html");
                 localStorage.setItem("uid",childSnapshot.key);
                 localStorage.setItem("username",username);
-                window.document.location = "booth.html";
+                window.location.pathname = "/booth.html";
             }
         });
 
