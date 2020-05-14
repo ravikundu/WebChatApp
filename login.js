@@ -46,7 +46,7 @@ function login(){
             localStorage.setItem("uid",uid);
             localStorage.setItem("username",username);
             console.log("User created.");
-            window.document.location = "/booth.html";
+            window.document.location = "WebChatApp/booth.html";
           }catch(err){
             console.log(err);
           }
